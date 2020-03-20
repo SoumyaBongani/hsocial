@@ -1,0 +1,8 @@
+
+
+<app-header (featureSelected)="featureSelected($event)"></app-header>
+
+
+<app-streams *ngIf="loadFeature=='streams'"></app-streams>
+
+<app-engage *ngIf="loadFeature=='engage'">engage</app-engage>
